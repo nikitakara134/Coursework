@@ -12,13 +12,13 @@ public class CorsConfig {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.addAllowedOriginPattern("http://localhost:3000"); // Дозволити фронтенд
-        config.addAllowedMethod("*"); // Дозволити всі HTTP-методи (GET, POST тощо)
-        config.addAllowedHeader("*"); // Дозволити всі заголовки
-        config.setAllowCredentials(true); // Дозволити передачу токенів (наприклад, Cookies)
+        config.addAllowedOriginPattern("http://localhost:3000");
+        config.addAllowedMethod("*");
+        config.addAllowedHeader("*");
+        config.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsConfiguration("/**", config); // Дозволити для всіх маршрутів
+        source.registerCorsConfiguration("/**", config);
         return new CorsFilter(source);
     }
 }

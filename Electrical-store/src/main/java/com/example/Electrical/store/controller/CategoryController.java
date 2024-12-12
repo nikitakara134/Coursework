@@ -22,7 +22,7 @@ import com.example.Electrical.store.exception.UserException;
 import com.example.Electrical.store.model.Category;
 import com.example.Electrical.store.service.CategoryService;
 
-@CrossOrigin(origins = "http://localhost:3000/") // Дозвіл для frontend
+@CrossOrigin(origins = "http://localhost:3000/")
 @RestController
 public class CategoryController {
 

@@ -15,9 +15,7 @@ import com.example.Electrical.store.exception.ProductException;
 import com.example.Electrical.store.exception.UserException;
 import com.example.Electrical.store.service.CartService;
 
-/**
- * RestController for Cart functioning.
- */
+
 
 @CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")  // Дозволяє запити з фронтенду
 @RestController

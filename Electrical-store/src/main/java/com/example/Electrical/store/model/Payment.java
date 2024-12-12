@@ -16,7 +16,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "payment")
 public class Payment {
 
-    // private Integer id;
 
     @NotBlank
     private String paymentStatus;

@@ -4,9 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * AddItemToCartDto to get request for add item to cart operation.
- */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

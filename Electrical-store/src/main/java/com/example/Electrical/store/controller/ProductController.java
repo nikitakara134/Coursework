@@ -22,9 +22,7 @@ import com.example.Electrical.store.model.Product;
 import com.example.Electrical.store.service.ProductService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-/**
- * RestController for product functioning.
- */
+
 
 @CrossOrigin("http://localhost:3000/")
 @RestController

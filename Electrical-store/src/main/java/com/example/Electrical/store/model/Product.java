@@ -39,7 +39,7 @@ public class Product {
     private Integer stock;
 
 
-    // every product belongs to a category
+
     @NotNull
     @ManyToOne
     @JoinColumn(name = "category_id")

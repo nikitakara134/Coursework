@@ -24,9 +24,7 @@ import com.example.Electrical.store.model.User;
 import com.example.Electrical.store.service.CurrentUserSessionService;
 import com.example.Electrical.store.service.UserService;
 
-/**
- * RestController to manage functioning of UserSession.
- */
+
 
 @CrossOrigin("http://localhost:3000/")
 @RestController

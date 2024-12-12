@@ -44,7 +44,7 @@ public class User {
     private String password;
 
 
-    // one User can have many orders
+
     @JsonIgnore
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     private List<Order> orders;
